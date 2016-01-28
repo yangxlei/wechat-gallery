@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_crop_height_title_bar">50dp</dimen>
+    <dimen name="common_crop_height_bottom_bar">50dp</dimen>
+
+    <dimen name="common_crop_space_between_element_h">10dp</dimen>
+    <dimen name="common_crop_space_between_element_v">10dp</dimen>
+
+    <dimen name="common_crop_size_text_normal">18sp</dimen>
+    <dimen name="common_crop_size_button_text">18sp</dimen>
+
+    <dimen name="common_corp_size_text_sub">14sp</dimen>
+    <dimen name="common_crop_height_divider">1px</dimen>
+
+
+    <dimen name="common_crop_height_title_button">28dp</dimen>
+
+    <dimen name="common_crop_width_folder_img">68dp</dimen>
+</resources>

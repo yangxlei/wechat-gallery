@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_crop_reselecte">重新选择图片</string>
+    <string name="common_crop_rotate">旋转</string>
+    <string name="common_crop_use_pic">使用</string>
+    <string name="common_crop_choose">选择</string>
+    <string name="common_crop_completed">完成</string>
+    <string name="common_crop_all_photo">全部图片</string>
+    <string name="common_crop_take_photo_fail">拍照失败</string>
+    <string name="common_crop_photo_list_empty">获取图片失败</string>
+    <string name="common_crop_please_reopen_gf">请重新打开图片浏览器</string>
+    <string name="common_crop_take_photo">拍摄照片</string>
+    <string name="common_crop_pic_number">%1$d张</string>
+    <string name="common_crop_permissions_tips_gallery">请求访问相册</string>
+    <string name="common_crop_preview">预览(%1$d)</string>
+    <string name="common_crop_preview_p2">预览(%1$d/%2$d)</string>
+    <string name="common_crop_tips_max_count">你最多只能选择%1$d张图片</string>
+    <string name="common_crop_tips_waiting">请等待</string>
+    <string name="common_crop_tips_saving">保存</string>
+    <string name="common_crop_picture">图片</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_crop_color_white">#ffffff</color>
+    <color name="common_crop_color_gray_dd">#dddddd</color>
+    <color name="common_crop_color_black">#000000</color>
+
+    <color name="common_crop_color_translucent_black_66">#66000000</color>
+    <color name="common_crop_color_translucent_black_AA">#aa000000</color>
+    <color name="common_crop_color_translucent_black_33">#33000000</color>
+    <color name="common_crop_color_transparent">@android:color/transparent</color>
+
+    <color name="common_crop_color_title_bar_background">#E54d4e52</color>
+
+    <color name="common_crop_color_divider">#dddddd</color>
+    <color name="common_crop_color_gray_3c">#3c3c3c</color>
+    <color name="common_crop_color_gray_99">#999999</color>
+
+    <color name="common_crop_color_title_bar_bg">@color/common_crop_color_translucent_black_66</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="1dp">
+
+    <ImageView
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:src="@drawable/common_crop_image_placeholder"/>
+
+    <com.baijiahulian.common.crop.uikit.GFImageView
+        android:id="@+id/item_photo_list_photo_ci"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:paddingLeft="@dimen/common_crop_space_between_element_h"
+        android:paddingBottom="@dimen/common_crop_space_between_element_h"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:id="@+id/item_photo_list_photo_checkbox"
+        android:src="@drawable/common_crop_ic_checkbox_unchecked"
+        android:scaleType="centerInside"
+        android:layout_gravity="right|top"
+        android:background="@null"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+
+</FrameLayout>

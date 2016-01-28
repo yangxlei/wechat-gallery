@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleColorView">
+        <attr name="fillColor" format="color" />
+        <attr name="intervalColor" format="color"/>
+    </declare-styleable>
+</resources>

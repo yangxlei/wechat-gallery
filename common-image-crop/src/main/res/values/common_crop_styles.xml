@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="common_crop_text_white_base">
+        <item name="android:textColor">@color/common_crop_color_white</item>
+        <item name="android:textColorHint">@color/common_crop_color_gray_dd</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="common_crop_text_white_button" parent="common_crop_text_white_base">
+        <item name="android:textSize">@dimen/common_crop_size_button_text</item>
+        <item name="android:textColor">@color/common_crop_selector_text_white</item>
+    </style>
+    <style name="CCAppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CCAnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/common_crop_in_fade</item>
+        <item name="android:activityOpenExitAnimation">@anim/common_crop_out_fade</item>
+        <item name="android:activityCloseEnterAnimation">@anim/common_crop_in_fade</item>
+        <item name="android:activityCloseExitAnimation">@anim/common_crop_out_fade</item>
+    </style>
+
+    <!-- activity样式 -->
+    <style name="CCAppTheme" parent="CCAppBaseTheme">
+        <item name="android:windowBackground">@color/common_crop_color_black</item>
+        <item name="android:windowAnimationStyle">@style/CCAnimationActivity</item>
+    </style>
+
+    <style name="common_crop_checkbox">
+        <item name="android:background">@drawable/common_crop_selector_checkbox_bg</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="common_crop_text_3c_18" parent="common_crop_text_white_base">
+        <item name="android:textSize">@dimen/common_crop_size_button_text</item>
+        <item name="android:textColor">@color/common_crop_color_gray_3c</item>
+    </style>
+
+    <style name="common_crop_text_99_14" parent="common_crop_text_white_base">
+        <item name="android:textSize">@dimen/common_corp_size_text_sub</item>
+        <item name="android:textColor">@color/common_crop_color_gray_99</item>
+    </style>
+
+    <style name="common_crop_devider">
+        <item name="android:background">@color/common_crop_color_divider</item>
+        <item name="android:layout_height">@dimen/common_crop_height_divider</item>
+    </style>
+</resources>

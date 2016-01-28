@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.baijiahulian.common.crop.uikit.GFViewPager
+        android:id="@+id/vp_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        layout="@layout/layout_common_crop_title_bar"
+        android:layout_gravity="top" />
+
+    <RelativeLayout
+        android:id="@+id/activity_preview_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_crop_height_bottom_bar"
+        android:layout_gravity="bottom"
+        android:background="@color/common_crop_color_title_bar_background">
+
+        <CheckBox
+            android:id="@+id/activity_preview_photos_checkbox"
+            style="@style/common_crop_text_white_button"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@null"
+            android:drawableLeft="@drawable/common_crop_selector_checkbox_bg"
+            android:layout_marginRight="@dimen/common_crop_space_between_element_h"
+            android:drawablePadding="5dp"
+            android:text="@string/common_crop_choose"/>
+    </RelativeLayout>
+</FrameLayout>

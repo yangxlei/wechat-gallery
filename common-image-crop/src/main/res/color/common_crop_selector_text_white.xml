@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/common_crop_color_gray_dd" android:state_selected="true" />
+    <item android:color="@color/common_crop_color_gray_dd" android:state_pressed="true" />
+    <item android:color="@color/common_crop_color_gray_dd" android:state_enabled="false" />
+    <item android:color="@color/common_crop_color_white" />
+</selector>

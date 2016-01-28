@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="1dp"
+    android:background="#4a4a4a">
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:src="@drawable/common_crop_ic_camera"/>
+
+    <TextView
+        style="@style/common_crop_text_white_button"
+        android:text="@string/common_crop_take_photo"
+        android:layout_marginTop="@dimen/common_crop_space_between_element_v"
+        />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    android:paddingLeft="@dimen/common_crop_space_between_element_h"
+    android:paddingRight="@dimen/common_crop_space_between_element_h">
+
+    <FrameLayout
+        android:id="@+id/id_photo_avatar"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_crop_space_between_element_h"
+        android:layout_marginRight="@dimen/common_crop_space_between_element_h"
+        android:background="@drawable/common_crop_ic_photo_folder_bg">
+
+        <com.baijiahulian.common.crop.uikit.GFImageView
+            android:id="@+id/item_photo_folder_img_ci"
+            android:scaleType="centerCrop"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_gravity="top|left" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/id_photo_avatar"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_photo_folder_name_tv"
+            style="@style/common_crop_text_3c_18"
+            android:text="Camera" />
+
+        <TextView
+            android:id="@+id/item_photo_folder_num_tv"
+            style="@style/common_crop_text_99_14"
+            android:layout_marginTop="@dimen/common_crop_space_between_element_v"
+            android:text="69张" />
+    </LinearLayout>
+
+    <com.baijiahulian.common.crop.uikit.CircleColorView
+        android:id="@+id/item_photo_folder_checked_cc"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/common_crop_space_between_element_h"
+        app:fillColor="@color/common_crop_color_gray_3c"
+        app:intervalColor="@color/common_crop_color_white" />
+
+    <View
+        style="@style/common_crop_devider"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="-10dp" />
+</RelativeLayout>

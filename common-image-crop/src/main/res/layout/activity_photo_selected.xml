@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_common_crop_title_bar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_photo_selected_photos_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/common_crop_height_title_bar" />
+
+    <FrameLayout
+        android:id="@+id/activit_photo_selected_folders_container_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/common_crop_height_bottom_bar"
+        android:layout_marginTop="@dimen/common_crop_height_title_bar"
+        android:background="@color/common_crop_color_white"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/activity_photo_selected_folders_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_crop_height_bottom_bar"
+        android:layout_alignParentBottom="true"
+        android:background="@color/common_crop_color_title_bar_background">
+
+        <LinearLayout
+            android:id="@+id/activity_photo_selected_toggler_folder_container_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/common_crop_space_between_element_h"
+            android:paddingRight="@dimen/common_crop_space_between_element_h"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/activity_photo_selected_toggle_folders_tv"
+                style="@style/common_crop_text_white_button"
+                android:layout_centerVertical="true"
+                android:text="图片" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="11dp"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="-3.5dp"
+                android:background="@drawable/common_crop_ic_trangle" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_photo_selected_preview_tv"
+            style="@style/common_crop_text_white_button"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/common_crop_space_between_element_h"
+            android:text="@string/common_crop_preview" />
+    </RelativeLayout>
+
+</RelativeLayout>
